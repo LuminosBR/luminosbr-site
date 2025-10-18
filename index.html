@@ -86,25 +86,22 @@
 
     <!-- Contact -->
     <section id="contact" class="mt-10 bg-white p-6 rounded-lg shadow flex flex-col md:flex-row gap-6 items-center">
-      <div class="flex-1">
-        <h4 class="text-blue-900 text-xl font-semibold mb-1">Gostaria de conhecer o produto?</h4>
-        <p class="text-gray-600 text-sm">Preencha o formulário e entraremos em contato.</p>
-      </div>
-      <form class="flex-1 space-y-3" action="https://formsubmit.co/luminosbr.sensores@gmail.com" method="POST">
-  </form>
-       <input type="text" id="name" name="Nome Completo" placeholder="Nome completo" required class="border border-gray-300 rounded-md w-full p-2">
-        <input type="email" id="email" name="Email" placeholder="E-mail institucional" required class="border border-gray-300 rounded-md w-full p-2">
-        <input type="text" id="org" name="Organizacao/Laboratorio" placeholder="Organização / Laboratório" class="border border-gray-300 rounded-md w-full p-2">
-        <textarea id="message" name="Mensagem/Interesse" placeholder="Mensagem / Interesse" class="border border-gray-300 rounded-md w-full p-2 h-28"></textarea>
-         <input type="hidden" name="_next" value="https://luminosbr.github.io/luminosbr-site/obrigado.html">
-         <input type="hidden" name="_subject" value="Novo Interesse - LuminosBR">
-         <input type="hidden" name="_autoresponse" value="Mensagem recebida com sucesso!">
-         <div class="flex space-x-3">
-          <button type="submit" class="bg-blue-900 text-white px-4 py-2 rounded-lg font-semibold">Enviar</button>
-          <a href="luminosbr.sensores@gmail.com" class="border border-gray-300 text-blue-900 px-4 py-2 rounded-lg font-semibold">Contato direto</a>
-        </div>
-      </form>
-    </section>
+  <form class="flex-1 space-y-3" action="https://formsubmit.co/luminosbr.sensores@gmail.com" method="POST">
+    <input type="text" id="name" name="Nome" placeholder="Nome completo" required class="border border-gray-300 rounded-md w-full p-2">
+    <input type="email" id="email" name="Email" placeholder="E-mail institucional" required class="border border-gray-300 rounded-md w-full p-2">
+    <input type="text" id="org" name="Organizacao" placeholder="Organização / Laboratório" class="border border-gray-300 rounded-md w-full p-2">
+    <textarea id="message" name="Mensagem" placeholder="Mensagem / Interesse" class="border border-gray-300 rounded-md w-full p-2 h-28"></textarea>
+    
+    <input type="hidden" name="_next" value="https://LuminosBr.github.io/luminosbr-site/obrigado.html">
+    
+    <input type="hidden" name="_subject" value="Novo Interesse - LuminosBR (Página Web)">
+
+    <div class="flex space-x-3">
+      <button type="submit" class="bg-blue-900 text-white px-4 py-2 rounded-lg font-semibold">Enviar</button>
+      <a href="mailto:contato@luminosbr.example" class="border border-gray-300 text-blue-900 px-4 py-2 rounded-lg font-semibold">Contato direto</a>
+    </div>
+  </form>
+</section>
 
     <footer class="text-center text-gray-500 text-sm mt-8 py-4">© LuminosBR — Fotoluminescência e Sensores. Pedido de patente BR 10 2023 027916-3</footer>
   </main>
